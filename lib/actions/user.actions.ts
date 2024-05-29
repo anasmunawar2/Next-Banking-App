@@ -90,8 +90,8 @@ export const signUp = async ({ password, ...userData }: SignUpParams) => {
       {
         ...userData,
         userId: newUserAccount.$id,
-        // dwollaCustomerId,
-        // dwollaCustomerUrl,
+        dwollaCustomerId,
+        dwollaCustomerUrl,
       }
     );
 
